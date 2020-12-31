@@ -1,0 +1,36 @@
+body{
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    padding: 0.1px 20px;
+    margin: 0px 0px 50px 0px;
+    background-color: lavender;
+}
+.contact-form{
+    
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 0px 33% 50px 33%;
+    padding: 40px 20px 20px 110px;
+    border-radius: 8px;
+    box-sizing: ;
+}
+.text-area{
+    display: block;
+    margin: 5px;
+    padding: 1px 0px 1px 5px;
+}
+.contact-form label{
+    display: block;
+}
+.button-green{
+    background-color: #a8e08d;
+    border: 0.5px solid black;
+    padding: 1px 3px 1px 3px;
+    margin-right: 70px;
+    font-size: 20px;
+    float: right;
+    border-radius: 3px;
+}
