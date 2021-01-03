@@ -34,3 +34,21 @@ header{
     float: right;
     border-radius: 3px;
 }
+.button-green:hover{
+    background-color: #79dd46;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    border-collapse: collapse;
+}
+footer{
+    height: 250px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

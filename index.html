@@ -1,32 +1,47 @@
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <title>Project-2</title>
+        
     </head>
     <body>
         <header>
             <h1>Contact: </h1>
         </header>
-        <div class="contact-form">
-            <form action="">
-                <label>First Name:</label>
-                <input class="text-area" type="text" maxlength="10" placeholder="John">
+        <div class="container">
+            <form action="row g-3">
+                <div>
+                    <label class="form-label">First Name:</label>
+                    <input class="form-contol" type="text" maxlength="10" placeholder="John">
+                </div>
                 
-                <label>Last Name:</label>
-                <input class="text-area" type="text" maxlength="15" placeholder="Wick">
+                <div>
+                    <label class="form-label">Last Name:</label>
+                    <input class="form-contol" type="text" maxlength="15" placeholder="Wick">
+                </div>
                 
-                <label>Email id:</label>
-                <input class="text-area" type="email" placeholder="john@gmail.com">
+                <div>
+                    <label class="form-label">Email id:</label>
+                    <input class="form-contol" type="email" placeholder="john@gmail.com">
+                </div>
                 
-                <label>Phone number:</label>
-                <input class="text-area" type="number" placeholder="4348756492">
+                <div>
+                    <label class="form-label">Phone number:</label>
+                    <input class="form-contol" type="number" placeholder="4348756492">
+                </div>
                 
-                <button class="button-green">Submit</button>
+                <div>
+                    <button class="btn btn-sm btn-success">Submit</button>
+                </div>
             </form>
         </div>
         
         <div>
-            <table>
+            <table class="table-bordered table-hover container">
                 <tr>
                     <th>Name</th>
                     <th>Class</th>
@@ -38,13 +53,20 @@
                     <td>A</td>
                 </tr>
                 <tr>
-    
+                    <td>Sourav</td>
+                    <td>12</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Sourav</td>
+                    <td>12</td>
+                    <td>A</td>
                 </tr>
             </table>
         </div>
-
+        <br>
         <div>
-            <img src="santa.jpg" width="200" height="200">
+            <img src="santa.jpg" class="img-thumbnail" width="200" height="200">
         </div>
         
         <div>
@@ -54,8 +76,7 @@
         
 
         <footer>
-            Copiright...
+            <p>Developed by Sourav Sharma</p>
         </footer>
     </body>
 </html>
-
